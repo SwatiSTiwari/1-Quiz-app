@@ -21,11 +21,11 @@ const Footer = () => {
                 <ButtonLink className="text-lg font-medium hover:text-gray-300" buttonText='Home' elementId='hero'/>
               </li>
               <li>
-                <ButtonLink className="text-lg font-medium hover:text-gray-300" buttonText='Previous Work' elementId='previouswork'/>
+                <ButtonLink className="text-lg font-medium hover:text-gray-300" buttonText='playgame' elementId='previouswork'/>
               </li>
-              <li>
+              {/* <li>
                 <ButtonLink className="text-lg font-medium hover:text-gray-300" buttonText='Contact' elementId='contact'/>
-              </li>
+              </li> */}
             </ul>
             <div className="flex space-x-6">
               <Link href="https://github.com/SwatiSTiwari" target='_blank'>
